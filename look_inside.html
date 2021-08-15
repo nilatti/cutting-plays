@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta
+      name="description"
+      content="Website for book Cutting Plays for Performance: A Practical and Accessible Guide, the first guide to how to cut plays"
+    />
+    <meta
+      name="author"
+      content="Aili Huber, Henslowe's Cloud Creative Consulting"
+    />
+    <title>Cutting Plays for Performance</title>
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/bootstrap_styles.css" rel="stylesheet" />
+    <link href="css/theme_styles.css" rel="stylesheet" />
+    <script src="js/csi.min.js"></script>
+  </head>
+  <body>
+    <div data-include="components/header.html"></div>
+
+    <!-- Page content-->
+    <div class="container">
+      <div id="cover-map-container">
+        <div id="image-map-caption">
+          Click around our cover to learn more about each image.
+        </div>
+
+        <!-- MODALS (note, naming conventions are very important for js to show/hide) -->
+        <div id="asc-modal" class="modal">
+          <div class="modal-content" id="asc-modal-content">
+            <span class="close">&times;</span>
+            <div class="row">
+              <img src="./assets/asc_maan.jpg" />
+              <p>
+                The cast of Aili Huber's 2017 production of
+                <em>Much Ado About Nothing</em> at the
+                <a
+                  href="https://americanshakespearecenter.com/education/educationhomepage/educationhomepage-2/"
+                  >American Shakespeare Center's summer camp</a
+                >
+                takes a bow in the Blackfriars Playhouse. Photo by
+                <a href="http://www.miscellaneousmediaphotography.com/"
+                  >Lindsey Walters</a
+                >.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div id="silas-modal" class="modal">
+          <div class="modal-content" id="silas-modal-content">
+            <span class="close">&times;</span>
+            <div class="row">
+              <img src="./assets/silas_scribbles.jpg" />
+              <p>
+                The script of <em>Give Us Good</em>, by Pam Mandigo, edited
+                during rehearsal by toddler dramaturg Silas Anansi Huber
+              </p>
+            </div>
+          </div>
+        </div>
+        <div id="faustus-modal" class="modal">
+          <div class="modal-content" id="faustus-modal-content">
+            <span class="close">&times;</span>
+            <div class="row">
+              <img src="./assets/faustus_parallel.png" />
+              <p>
+                A parallel text comparison of the A-Text and B-Text of
+                <em>Dr. Faustus</em>, prepared by Toby Malone for
+                <em>Blast Faustus</em>, part of Poorboy Theatre Scotland’s Blast
+                Classics series, 2012.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div id="pcsc-modal" class="modal">
+          <div class="modal-content" id="pcsc-modal-content">
+            <span class="close">&times;</span>
+            <div class="row">
+              <img src="./assets/pcsc_aandc.jpg" />
+              <p>
+                Katherine Mayberry and Scott Lange as Cleopatra and Antony.
+                Photo by Chaz Albright, costume design by Roz Srb.
+                <a href="http://pcshakespeare.com"
+                  >Pigeon Creek Shakespeare Company</a
+                >, 2019.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- annoying duplication of previous because can't repeat ids-->
+        <div id="pcsc-2-modal" class="modal">
+          <div class="modal-content" id="pcsc-2-modal-content">
+            <span class="close">&times;</span>
+            <div class="row">
+              <img src="./assets/pcsc_aandc.jpg" />
+              <p>
+                Katherine Mayberry and Scott Lange as Cleopatra and Antony.
+                Photo by Chaz Albright, costume design by Roz Srb.
+                <a href="http://pcshakespeare.com"
+                  >Pigeon Creek Shakespeare Company</a
+                >, 2019.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div id="hash-r3-modal" class="modal">
+          <div class="modal-content" id="hash-r3-modal-content">
+            <span class="close">&times;</span>
+            <div class="row">
+              <img src="./assets/uw_r3.jpg" />
+              <p>
+                Jessica Blondin (Catesby), Kandi Prosser (Lady Anne Neville),
+                Leah Magdalen (Queen Elizabeth Woodville), in
+                <em>#R3 (Richard III)</em>, University of Waterloo, 2013.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div id="aristophanes-modal" class="modal">
+          <div class="modal-content" id="aristophanes-modal-content">
+            <span class="close">&times;</span>
+            <div class="row">
+              <img src="./assets/frogs.jpg" />
+              <p>A page of Aristophanes' <em>The Frogs</em>.</p>
+            </div>
+          </div>
+        </div>
+        <div id="prompt-book-modal" class="modal">
+          <div class="modal-content" id="prompt-book-modal-content">
+            <span class="close">&times;</span>
+            <div class="row">
+              <img src="./assets/prompt_book.png" />
+              <p>
+                prompt book from David Garrick's
+                <em>A Midsummer Night's Dream</em>
+                (Drury Lane, London, 23 November 1734), PROMPT M.N.D 06. Folger
+                Shakespeare Library Call #: 54843. Used by permission of
+                <a href="https://www.folger.edu/"
+                  >the Folger Shakespeare Library</a
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+        <div id="centlivre-modal" class="modal">
+          <div class="modal-content" id="centlivre-modal-content">
+            <span class="close">&times;</span>
+            <div class="row">
+              <img src="./assets/centlivre.jpg" />
+              <p>18th Century engraved print of Susanna Centlivre</p>
+            </div>
+          </div>
+        </div>
+        <div id="shakespeare-modal" class="modal">
+          <div class="modal-content" id="shakespeare-modal-content">
+            <span class="close">&times;</span>
+            <div class="row">
+              <img src="./assets/shakespeare.jpg" />
+              <p>
+                The “Chandos portrait” of William Shakespeare, possibly by John
+                Taylor.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div id="cass-modal" class="modal">
+          <div class="modal-content" id="cass-modal-content">
+            <span class="close">&times;</span>
+            <div class="row">
+              <img src="./assets/cass.png" />
+              <p>
+                Rhetorical analysis of <em>Romeo and Juliet</em> by Cass Morris.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div id="henslowe-modal" class="modal">
+          <div class="modal-content" id="henslowe-modal-content">
+            <span class="close">&times;</span>
+            <div class="row">
+              <img src="./assets/henslowes_cloud.png" />
+              <p>
+                Aili Huber’s cut of <em>Antony and Cleopatra</em> using digital
+                tools available at
+                <a href="https://henslowescloud.com">Henslowe's Cloud</a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div id="toby-r3-modal" class="modal">
+          <div class="modal-content" id="toby-r3-modal-content">
+            <span class="close">&times;</span>
+            <div class="row">
+              <img src="./assets/toby_r3_cut.png" />
+              <p>
+                Toby Malone’s cut of <em>Richard III</em> using manual tools.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div id="shapiro-modal" class="modal">
+          <div class="modal-content" id="shapiro-modal-content">
+            <span class="close">&times;</span>
+            <div class="row">
+              <img src="./assets/shapiro.jpg" />
+              <p>James Shapiro’s cut of <em>Coriolanus</em></p>
+            </div>
+          </div>
+        </div>
+        <div id="thomas-more-modal" class="modal">
+          <div class="modal-content" id="thomas-more-modal-content">
+            <span class="close">&times;</span>
+            <div class="row">
+              <img src="./assets/thomas-more.jpg" />
+              <p>
+                A page from <em>Thomas More</em>, possibly in Shakespeare’s
+                hand.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div id="ira-1-modal" class="modal">
+          <div class="modal-content" id="ira-1-modal-content">
+            <span class="close">&times;</span>
+            <div class="row">
+              <img src="./assets/aldridge.jpg" />
+              <p>
+                "Ira Aldridge in the Role of Shakespeare's Othello" by William
+                Mulready
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- duplication to not repeat id-->
+        <div id="ira-2-modal" class="modal">
+          <div class="modal-content" id="ira-2-modal-content">
+            <span class="close">&times;</span>
+            <div class="row">
+              <img src="./assets/aldridge.jpg" />
+              <p>
+                "Ira Aldridge in the Role of Shakespeare's Othello" by William
+                Mulready
+              </p>
+            </div>
+          </div>
+        </div>
+        <div id="miss-julie-modal" class="modal">
+          <div class="modal-content" id="miss-julie-modal-content">
+            <span class="close">&times;</span>
+            <div class="row">
+              <img src="./assets/miss_julie.png" />
+              <p>Word cloud of <em>Miss Julie</em>.</p>
+            </div>
+          </div>
+        </div>
+        <div id="queen-margaret-modal" class="modal">
+          <div class="modal-content" id="queen-margaret-modal-content">
+            <span class="close">&times;</span>
+            <div class="row">
+              <img src="./assets/queen_margaret.jpg" />
+              <p>
+                Compilation script of <em>Queen Margaret</em>, edited by Megan
+                McDonough. Different fonts show scene interleaving.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- IMAGE MAP -->
+        <img
+          class="map-image mx-auto"
+          src="./assets/cover.png"
+          usemap="#image-map"
+        />
+
+        <map name="image-map">
+          <area
+            class="area"
+            alt=""
+            title=""
+            id="asc"
+            coords="4,3,4,271,271,2"
+            shape="poly"
+          />
+          <area
+            class="area"
+            alt=""
+            title=""
+            id="silas"
+            coords="2,274,2,414,411,2,275,2"
+            shape="poly"
+          />
+          <area
+            class="area"
+            alt=""
+            title=""
+            id="faustus"
+            coords="548,0,419,0,333,88,465,85"
+            shape="poly"
+          />
+          <area
+            class="area"
+            alt=""
+            title=""
+            id="pcsc"
+            coords="331,90,253,166,252,300,467,87"
+            shape="poly"
+          />
+          <area
+            class="area"
+            alt=""
+            title=""
+            id="hash-r3"
+            coords="251,168,2,419,130,419,251,300"
+            shape="poly"
+          />
+          <area
+            class="area"
+            alt=""
+            title=""
+            id="aristophanes"
+            coords="128,422,4,423,3,548"
+            shape="poly"
+          />
+          <area
+            class="area"
+            alt=""
+            title=""
+            id="prompt-book"
+            coords="1,550,3,692,689,1,552,1"
+            shape="poly"
+          />
+          <area
+            class="area"
+            alt=""
+            title=""
+            id="centlivre"
+            coords="3,695,4,726,124,725,123,710,397,437,259,434"
+            shape="poly"
+          />
+          <area
+            class="area"
+            alt=""
+            title=""
+            id="pcsc-2"
+            coords="264,431,400,433,747,88,607,87"
+            shape="poly"
+          />
+          <area
+            class="area"
+            alt=""
+            title=""
+            id="shakespeare"
+            coords="611,84,748,84,831,2,693,0"
+            shape="poly"
+          />
+          <area
+            class="area"
+            alt=""
+            title=""
+            id="cass"
+            coords="834,1,898,1,899,73,763,210,624,213"
+            shape="poly"
+          />
+          <area
+            class="area"
+            alt=""
+            title=""
+            id="henslowe"
+            coords="621,216,623,350,760,212"
+            shape="poly"
+          />
+          <area
+            class="area"
+            alt=""
+            title=""
+            id="toby-r3"
+            coords="620,220,321,518,454,518,621,355"
+            shape="poly"
+          />
+          <area
+            class="area"
+            alt=""
+            title=""
+            id="shapiro"
+            coords="317,517,454,522,244,724,128,726,124,710"
+            shape="poly"
+          />
+          <area
+            class="area"
+            alt=""
+            title=""
+            id="thomas-more"
+            coords="753,224,888,223,900,213,899,76"
+            shape="poly"
+          />
+          <area
+            class="area"
+            alt=""
+            title=""
+            id="ira-1"
+            coords="749,229,884,227,536,575,537,441"
+            shape="poly"
+          />
+          <area
+            class="area"
+            alt=""
+            title=""
+            id="miss-julie"
+            coords="534,443,536,576,384,728,247,727"
+            shape="poly"
+          />
+          <area
+            class="area"
+            alt=""
+            title=""
+            id="queen-margaret"
+            coords="388,727,525,727,900,346,900,216"
+            shape="poly"
+          />
+          <area
+            class="area"
+            alt=""
+            title=""
+            id="ira-2"
+            coords="529,726,900,726,900,355"
+            shape="poly"
+          />
+        </map>
+      </div>
+      <div class="text-center mt-5">
+        <h1>Table of Contents</h1>
+      </div>
+      <div>
+        <dl>
+          <dt>Introduction</dt>
+          <dd>
+            The mere concept of cutting content, lines, and characters from
+            well-known or classical plays might seem hubristic or sacrilegious
+            to the outside observer, but not only is such cutting common, it is
+            often necessary. This introductory chapter speaks to the simple
+            question of why texts might need to be cut at all.
+          </dd>
+          <dt>
+            Chapter 1: The Text is a Lie: Textual History and Why It Matters
+          </dt>
+          <dd>
+            Theater artists through time and around the world have adapted,
+            changed, and cut texts. Do you feel guilty axing a famous moment
+            from a play you didn't write? Don't! You're in line with millenia of
+            tradition.
+          </dd>
+
+          <dt>Chapter 2: Start Here: The Three Questions</dt>
+          <dd>
+            Before you start cutting, you should make sure you have deep answers
+            to three crucial questions:
+            <ul>
+              <li>Who is my audience?</li>
+              <li>What is my story?</li>
+              <li>How much time do I have?</li>
+            </ul>
+          </dd>
+          <dt>Chapter 3: The Cutter’s Toolkit Part One: Materials</dt>
+          <dd>
+            What items do you need to hand? How do you pick a text to start
+            from?
+          </dd>
+          <dt>
+            Chapter 4: The Cutter’s Toolkit Part Two: Strategies and
+            Considerations
+          </dt>
+          <dd>
+            Quick tips for getting started, as well as a deeper dive on common
+            mistakes.
+          </dd>
+          <dt>Chapter 5: Cut to the Quick: Character-Specific Cuts</dt>
+          <dd>
+            Cutting can help you feature or minimize a character. It can
+            facilitate actor doubling or enrich the ensemble.
+          </dd>
+          <dt>Chapter 6: Don’t Cut That!: The Mechanics of Cuts</dt>
+          <dd>
+            Before you cut something you'll regret later, make sure you
+            understand how each line contributes to the whole.
+          </dd>
+          <dt>Chapter 7: Cut to the Moment: Production-Specific Cuts</dt>
+          <dd>
+            By comparing different cuts, we can see how the choices cutters make
+            contribute to a production's specific goals and context.
+          </dd>
+          <dt>
+            Chapter 8: Scissors, Paste, and Negotiations: Communicating Cuts
+          </dt>
+          <dd>
+            How can you break it to Hamlet that he doesn't get to say "To be or
+            not to be"? Does your audience feel cheated when they learn you
+            haven't given them the whole play (not that such a thing exists)?
+          </dd>
+          <dt>Appendix 1: Legal Concerns</dt>
+          <dd>
+            You can't cut just any play. We're here to help you stay out of
+            trouble.
+          </dd>
+          <dt>Appendix 2: Cut Activities</dt>
+          <dd>Practical exercises in cutting</dd>
+          <dt>Appendix 3: Further Reading</dt>
+          <dd>
+            A collection of other resources to guide your cutting process.
+          </dd>
+        </dl>
+      </div>
+    </div>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
+    <script>
+      const areas = document.querySelectorAll(".area");
+
+      for (var i = 0; i < areas.length; i++) {
+        areas[i].addEventListener("click", openModal, false);
+      }
+
+      function openModal() {
+        var modal = document.getElementById(`${this.id}-modal`);
+        modal.style.display = "block";
+        var span = modal.getElementsByClassName("close")[0];
+        span.onclick = function () {
+          var modalId = this.parentNode.id.replace("-content", "");
+          console.log(modalId);
+          var modal = document.getElementById(modalId);
+          modal.style.display = "none";
+        };
+      }
+    </script>
+  </body>
+</html>
