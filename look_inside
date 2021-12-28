@@ -74,7 +74,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="./index.html"
+              <a class="nav-link active" aria-current="page" href="./index"
                 >Home</a
               >
             </li>
@@ -85,19 +85,19 @@
               >!
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="./about.html">About</a>
+              <a class="nav-link" href="./about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="./contributors.html">Contributors</a>
+              <a class="nav-link" href="./contributors">Contributors</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="./look_inside.html">Look Inside</a>
+              <a class="nav-link" href="./look_inside">Look Inside</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="./cut.html">Cutting Tools</a>
+              <a class="nav-link" href="./cut">Cutting Tools</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="./randomizer.html">Randomizer</a>
+              <a class="nav-link" href="./randomizer">Randomizer</a>
             </li>
             <li class="nav-item">
               <a

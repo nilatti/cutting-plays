@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
     <meta
       name="description"
-      content="Website for book Cutting Plays for Performance: A Practical and Accessible Guide, the first guide to how to cut plays"
+      content="website for book Cutting Plays for Performance: A Practical and Accessible Guide"
     />
     <meta
       name="author"
@@ -74,7 +74,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="./index.html"
+              <a class="nav-link active" aria-current="page" href="./index"
                 >Home</a
               >
             </li>
@@ -85,19 +85,19 @@
               >!
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="./about.html">About</a>
+              <a class="nav-link" href="./about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="./contributors.html">Contributors</a>
+              <a class="nav-link" href="./contributors">Contributors</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="./look_inside.html">Look Inside</a>
+              <a class="nav-link" href="./look_inside">Look Inside</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="./cut.html">Cutting Tools</a>
+              <a class="nav-link" href="./cut">Cutting Tools</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="./randomizer.html">Randomizer</a>
+              <a class="nav-link" href="./randomizer">Randomizer</a>
             </li>
             <li class="nav-item">
               <a
@@ -131,18 +131,15 @@
 
     <!-- Page content-->
     <div class="container">
-      <div class="text-center mt-5">
-        <h1>Randomizer</h1>
+      <div class="hc-intro">
+        These cutting tools are provided by Henslowe's Cloud. Visit them
+        directly to access more robust tools for rehearsal scheduling, audition
+        management, and more.
       </div>
-      <div>
-        Your play will be performed <span id="location"></span> for an audience
-        of <span id="audience-adjective"></span> <span id="audience"></span>.
-        Your performance space is <span id="space"></span>.
-      </div>
+      <iframe id="henslowe" src="https://henslowescloud.com"></iframe>
     </div>
     <footer>
-      <em>Cutting Plays for Performance: A Practical and Accessible Guide</em> is
-      available from Routledge Press.
+      <em>Cutting Plays for Performance: A Practical and Accessible Guide</em> is available from Routledge Press.
       <a
         href="https://www.tkqlhce.com/click-100524570-14076226?url=https%3A%2F%2Fwww.routledge.com%2FCutting-Plays-for-Performance-A-Practical-and-Accessible-Guide%2FMalone-Huber%2Fp%2Fbook%2F9780367748883"
         >Order now</a
@@ -153,115 +150,5 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
     <!-- Core theme JS-->
     <script src="js/scripts.js"></script>
-    <script>
-      const locations = [
-        "in a big city",
-        "in rural Denmark",
-        "in Arizona",
-        "in a midwestern village",
-        "at a beach",
-        "at a corporate tech company campus",
-        "at a holiday resort",
-        "an ocean cruise",
-        "at a failing arts festival",
-        "at an academic conference",
-        "in a shopping mall",
-        "in an aircraft carrier",
-        "on a ZOOM call",
-        "at a major arts festival",
-        "on a university campus",
-        "in a parking lot",
-        "at a farm",
-        "at a live television taping",
-        "in a smalltown library",
-        "in a Japanese garden",
-      ];
-      const spaces = [
-        "a 3000-seat Broadway house",
-        "a tiny blackbox",
-        "an airplane hangar",
-        "a middle-school cafetorium",
-        "an art gallery",
-        "a park",
-        "your mother's living room",
-        "a dive bar",
-        "a spaceship",
-        "a quarry",
-        "a major regional theater",
-        "the back of a truck",
-        "a wide-open field",
-        "a long thrust stage",
-        "an arena stage",
-        "an old barn",
-        "a church basement",
-        "an abandoned Blockbuster Video",
-        "promenade staging around a town",
-        "a medieval touring wagon",
-        "on a football field at halftime",
-        "an improvised platform",
-        "caverns",
-        "a wind tunnel",
-        "the internet",
-      ];
-
-      const audienceAdjectives = [
-        "cranky",
-        "snobby",
-        "erudite",
-        "villanous",
-        "happy",
-        "drunk",
-        "sleep-deprived",
-        "unimpressed",
-        "participatory",
-        "impatient",
-        "supportive",
-        "eager to laugh",
-        "whimsical",
-        "sleepy",
-        "anxious about traffic",
-        "device-distracted",
-        "ZOOM-weary",
-        "judgmental",
-        "easily confused",
-        "analytical",
-        "skeptical",
-      ];
-
-      const audiences = [
-        "college students",
-        "kindergarteners",
-        "elderly professors",
-        "actors",
-        "friends",
-        "peers",
-        "middle school boys",
-        "soldiers",
-        "people who are visually impaired",
-        "volunteer fire fighters",
-        "industry types",
-        "dog walkers",
-        "relatives of the cast",
-        "retirement home residents",
-        "Twitter users",
-        "long-time subscribers",
-        "students at an all-girls school",
-        "wrestling fans",
-        "tourists",
-        "non-English speakers",
-        "conference delegates",
-        "clock watchers",
-      ];
-      document.getElementById("location").textContent =
-        locations[Math.floor(Math.random() * locations.length)];
-      document.getElementById("audience-adjective").textContent =
-        audienceAdjectives[
-          Math.floor(Math.random() * audienceAdjectives.length)
-        ];
-      document.getElementById("audience").textContent =
-        audiences[Math.floor(Math.random() * audiences.length)];
-      document.getElementById("space").textContent =
-        spaces[Math.floor(Math.random() * spaces.length)];
-    </script>
   </body>
 </html>

@@ -74,7 +74,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="./index.html"
+              <a class="nav-link active" aria-current="page" href="./index"
                 >Home</a
               >
             </li>
@@ -85,19 +85,19 @@
               >!
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="./about.html">About</a>
+              <a class="nav-link" href="./about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="./contributors.html">Contributors</a>
+              <a class="nav-link" href="./contributors">Contributors</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="./look_inside.html">Look Inside</a>
+              <a class="nav-link" href="./look_inside">Look Inside</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="./cut.html">Cutting Tools</a>
+              <a class="nav-link" href="./cut">Cutting Tools</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="./randomizer.html">Randomizer</a>
+              <a class="nav-link" href="./randomizer">Randomizer</a>
             </li>
             <li class="nav-item">
               <a
@@ -132,69 +132,78 @@
     <!-- Page content-->
     <div class="container">
       <div class="text-center mt-5">
-        <h1>Cutting Plays for Performance</h1>
-        <p class="lead">A Practical and Accessible Guide</p>
-        <p>By Toby Malone and Aili Huber</p>
-        <p>Routledge Press, December 2021</p>
-      </div>
-      <div>
+        <h1>Contributors</h1>
         <p>
-          <em>Hamlet.</em> Act Two, Scene Two. A group of travelling players
-          have arrived at Elsinore. Our inspired title character exhorts his
-          guests to reprise one of their past performances: an epic depiction of
-          the fall of Troy. One player steps up with relish, and performs the
-          evocative scene with details, images, and free-flowing descriptors.
-          Sixty lines into the speech, Hamlet remains enthralled. Not everyone
-          shares his enthusiasm: Polonius, the pedantic politician, has become
-          impatient.
+          <em
+            >One of our favorite parts of this process was getting to interview
+            many brilliant practitioners to learn their perspectives on cutting
+            plays. We are so grateful to all of the following people, who
+            generously shared their time and insight with us.</em
+          >
         </p>
-        <p>"This is too long."</p>
-        <p>
-          The nerve! Hamlet is exasperated. Too long? What are they supposed to
-          do? Cut it?
-        </p>
-        <p>
-          Not necessarily. But believe it or not, yes, a cut might be the best
-          solution of all. To many directors, dramaturgs, and actors, cutting
-          plays is an integral step in the process of theatre. Cuts might happen
-          in deep pre-production, or at a table read, or in rehearsal, or even,
-          quite rarely, in performance. Cuts happen to control the play’s
-          length, to address modesty issues or cultural differences, or to fit a
-          directorial concept. Cuts are common. Standard, even.
-        </p>
-        <p>
-          To an outsider, cuts may seem audacious, hubristic, or even
-          sacrilegious. You want to cut a play a playwright has authorized as
-          complete? Who do you think you are? Such dismay has historical
-          precedent. The famously opinionated George Bernard Shaw believed if
-          you can’t perform Shakespeare uncut, then you shouldn’t perform it at
-          all. The plays, Shaw suggested, were that length and had that content
-          for a purpose. To change the content was to remove some of the play’s
-          spirit: in his inimitable style, Shaw suggested adapters “[l]et
-          Shakespear alone if you dont believe in him” (sic). Without a doubt,
-          Shaw would be horrified to know how often his own works are cut to
-          size today.
-        </p>
-        <p>
-          To the purists, cuts may seem like unnecessary brutality inflicted on
-          a beloved text, perpetrated out of fear of a classical play’s inherent
-          intricacy. In fact, cutting is not only common, but also necessary.
-          Polonius’s instinctive, "This is too long," does not necessarily
-          betray a lack of sophistication, but perhaps an audience’s very real
-          awareness they are no longer engaged. A company may faithfully retain
-          every line in an original practices staging of Aeschylus’s The
-          Persians (472 BCE), yet might potentially undermine their narrative if
-          the audience’s attention wanders. Another company may insist their
-          production of Aphra Behn’s The Rover (1677) is letter-perfect, and
-          have the time and audience to embrace it. When these rare
-          opportunities for uncut performance arrive, they can be instructive
-          and fulfilling, albeit quite long.
-        </p>
-        <p>
-          So: the question is, what do you cut? And how? And what happens to the
-          rest of the play? Is it the same play? What about the purists? Is this
-          sacreligious?
-        </p>
+        <ul id="contributors">
+          <li>Anne Bogart, Artistic Director, <a href="https://siti.org/" target="_blank">SITI Company</a>, New York City</li>
+          <li>
+            Tim Carroll, Artistic Director, <a href="https://www.shawfest.com/" target="_blank">Shaw Festival</a>, Niagara-on-the-Lake,
+            Ontario
+          </li>
+          <li>
+            Antoni Cimolino, Artistic Director, <a href="https://www.stratfordfestival.ca/" target="_blank">Stratford Festival of Canada</a>,
+            Stratford, Ontario
+          </li>
+          <li>
+            Amy R. Cohen, Catherine Ehrman Thoresen ‘23 and William E. Thoresen
+            Professor of Speech and Theatre, Chair of the Theatre Department,
+            Professor of Classics, <a href="https://www.randolphcollege.edu/" target="_blank">Randolph College</a>, Lynchburg, Virginia
+          </li>
+          <li>
+            Ralph Alan Cohen, Founding Executive Director and Senior Advisor at
+            the <a href="https://americanshakespearecenter.com/" target="_blank">American Shakespeare Center</a>, Staunton, Virginia
+          </li>
+          <li>
+            Lue Morgan Douthit, Executive Director of <a href="https://www.osfashland.org/artistic/play-on.aspx" target="_blank">Play On Shakespeare</a>,
+            Oregon
+          </li>
+          <li>James Evans, Associate Director, <a href=https://www.bellshakespeare.com.au/"" target="_blank">Bell Shakespeare</a>, Sydney</li>
+          <li>
+            Linda Hutcheon, Professor Emeritus, <a href="https://www.utoronto.ca/" target="_blank">University of Toronto</a>, author, A
+            Theory of Adaptation
+          </li>
+          <li>
+            Martine Kei Green-Rogers, Professor at <a href="https://www.newpaltz.edu/" target="_blank">SUNY New Paltz</a>, freelance
+            dramaturg and past president of the <a href="https://lmda.org/" target="_blank">Literary Managers and Dramaturgs
+            of the Americas</a>
+          </li>
+          <li>
+            Megan McDonough, Cultural Programs Coordinator at <a href="https://www.crpd.org/" target="_blank">Conejo Recreation
+            and Parks District</a>, California
+          </li>
+          <li>
+            Grant Mudge, Ryan Producing Artistic Director, <a href="https://shakespeare.nd.edu/" target="_blank">Notre Dame
+            Shakespeare</a>, Indiana
+          </li>
+          <li>
+            Kate Mulvany, actor, text editor, playwright, and dramaturg,
+            Sydney/New York City
+          </li>
+          <li>Anna Northam, freelance actor, UK</li>
+          <li><a href="https://peteroswald.net/" target="_blank">Peter Oswald</a>, freelance playwright and translator, London</li>
+          <li>
+            Tina Packer, Founding Artistic Director, <a href="https://www.shakespeare.org/" target="_blank">Shakespeare & Company</a>,
+            Lenox, Massachusetts
+          </li>
+          <li>
+            Christine Schmidle, Text Associate at <a href="https://www.shakespearesglobe.com/" target="_blank">Shakespeare’s Globe</a>,
+            London, director of Vision and Text at <a href="https://flagshakes.org/" target="_blank">Flagstaff Shakespeare
+            Festival</a>, and founder of <a href="http://www.verse-words.com">Shakespeare text coaching service Words Words Words</a>
+          </li>
+          <li>
+            James Shapiro, professor and author (1599, Contested Will), text
+            editor for <a href="https://publictheater.org/" target="_blank">The Public</a> Shakespeare, New York City
+          </li>
+          <li><a href="https://caridadsvich.com/" target="_blank">Caridad Svich</a>, OBIE-award winning playwright, New York City</li>
+          <li><a href="https://tj-young.com/" target="_blank">TJ Young</a>, playwright and dramaturg, Pittsburgh, PA</li>
+        </ul>
       </div>
     </div>
     <footer>
