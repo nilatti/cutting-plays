@@ -1,1 +1,2 @@
 A push to main will automatically update S3. HOWEVER might have to edit meta data on S3 so ContentType = text/html
+Don't forget to invalidate assets on CloudFront!
