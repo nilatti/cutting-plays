@@ -88,6 +88,9 @@
               <a class="nav-link" href="./about">About</a>
             </li>
             <li class="nav-item">
+              <a class="nav-link" href="./media">Media & Appearances</a>
+            </li>
+            <li class="nav-item">
               <a class="nav-link" href="./contributors">Contributors</a>
             </li>
             <li class="nav-item">
