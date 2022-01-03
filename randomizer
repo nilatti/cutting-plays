@@ -257,7 +257,7 @@
         "clock watchers",
       ];
 
-      const concept = [
+      const concepts = [
         "raise strange and troubling questions",
         "leave the audience disturbed and a little aroused",
         "redeem the villain",
@@ -293,6 +293,8 @@
         audiences[Math.floor(Math.random() * audiences.length)];
       document.getElementById("space").textContent =
         spaces[Math.floor(Math.random() * spaces.length)];
+        document.getElementById("concept").textContent =
+          concepts[Math.floor(Math.random() * concepts.length)];
     </script>
   </body>
 </html>
