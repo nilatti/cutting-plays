@@ -141,6 +141,7 @@
         Your play will be performed <span id="location"></span> for an audience
         of <span id="audience-adjective"></span> <span id="audience"></span>.
         Your performance space is <span id="space"></span>.
+        Your production will <span id="concept"></span>.
       </div>
     </div>
     <footer>
@@ -255,6 +256,33 @@
         "conference delegates",
         "clock watchers",
       ];
+
+      const concept = [
+        "raise strange and troubling questions",
+        "leave the audience disturbed and a little aroused",
+        "redeem the villain",
+        "reinforce traditional gender roles",
+        "challenge traditional gender roles",
+        "elevate the ensemble",
+        "be a star vehicle",
+        "be performed by a cast of five",
+        "be performed exclusively by women",
+        "be performed exclusively by men",
+        "be performed exclusively by gender queer people",
+        "be a fundraiser for the ASPCA",
+        "be a fundraiser for the NRA",
+        "be a fundraiser for your local public radio station",
+        "will be performed in an aggressively midwest dialect",
+        "performed by college students",
+        "performed by senior citizens",
+        "have a bit with a dog",
+        "emphasize the comedy",
+        "emphasize the tragedy",
+        "be set in the deep south in the late 19th century",
+        "be set on an island",
+        "be set in space",
+
+      ]
       document.getElementById("location").textContent =
         locations[Math.floor(Math.random() * locations.length)];
       document.getElementById("audience-adjective").textContent =
