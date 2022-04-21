@@ -20,6 +20,7 @@ jobs:
           aws-region: us-east-1
 
       - name: Deploy assets site to S3 bucket
-        run: aws s3 sync ./ s3://cuttingplays.com --delete --exclude !(*.*)
+        run: aws s3 sync ./ s3://cuttingplays.com --delete --exclude "*" --include "*.png" --include "*.ico" --include "*.jpg" --include "*.html" --include "*.css" --include "*.js"
+
       - name: Deploy html pages to s3 bucket
-        run: aws s3 sync ./ s3://cuttingplays.com --delete --exclude (*.*) --content-type text/html
+        run: aws s3 sync ./ s3://cuttingplays.com --delete --exclude "*.*" --content-type text/html
