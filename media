@@ -88,7 +88,7 @@
               <a class="nav-link" href="./about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="./media">Media & Appearances</a>
+              <a class="nav-link" href="./media">Media & Reviews</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="./contributors">Contributors</a>
@@ -135,14 +135,17 @@
     <!-- Page content-->
     <div class="container">
       <div class="text-center mt-5">
-        <h1>Media & Appearances</h1>
+        <h1>Media & Reviews</h1>
       </div>
-      <div class="lead text-center">Events</div>
+      <div class="lead text-center">Reviews</div>
       <div>
+        <div>Check out all of our glowing reviews!</div>
         <ul>
-        <li><a href="http://www.stahome.org/"><strong>Shakespeare Theater Association Conference:</strong></a> Aili is presenting about cutting plays at the pre-conference on January 3</li>
-        <li><a href="https://www.kennedy-center.org/education/opportunities-for-artists/pre-professional-artist-training/kcactf/"><strong>Kennedy Center American College Theater Festival (National):</strong></a> Aili is presenting to the dramaturgy program on January 10</li>
-        <li><a href="https://www.kcactf2.org/"><strong>Kennedy Center American College Theater Festival (Region 2): </strong></a> Toby is the dramaturgy coordinator for the festival. Aili is the guest dramaturg. They will be presenting a workshop on cutting plays together on January 13.</li>
+        <li>Dr James McNamara: "A vitally important and truly groundbreaking contribution to adaptation studies and practice. Every theater company and screenwriter engaged in adapting texts for performance should own a copy of this book." (<a href="https://www.amazon.com/gp/customer-reviews/R2YV0R8FEUXJD5?ref=pf_vv_at_pdctrvw_srp">Read more</a>)</li>
+        <li>Wendy W.: "I think this book would be extremely valuable for theatre directors, dramaturgs, and students, but also enriching for folks like myself who love to go to the theatre and love learning about the process. Did I mention it was fun?" (<a href="https://www.amazon.com/gp/customer-reviews/R2J9UKDAP15FVW?ref=pf_vv_at_pdctrvw_srp">Read more</a>)</li>
+        <li>Ryan Benson Smith: "This book should be required for all theatre artists to read, from dramaturgs to directors to actors and beyond." (<a href="https://www.amazon.com/gp/customer-reviews/R21TPXQH7J2GQA?ref=pf_vv_at_pdctrvw_srp">Read more</a>)</li>
+        <li>Joey Madia: "Toby Malone and Aili Huber deserve a standing ovation for the time, expertise, and passion they have put into this handbook. I will keep it in a handy spot on my shelf, because I know I will be consulting it time and time again." (<a href="https://www.amazon.com/gp/customer-reviews/R178RSOCETUGT6?ref=pf_vv_at_pdctrvw_srp">Read more</a>)</li>
+        <li>Alfredo J.: "Finally a book that discusses, from deep experience, the quandaries the careful dramaturg must navigate when weighing the emotional impact of every single line." (<a href="https://www.amazon.com/gp/customer-reviews/R2N0OW5M5JQV0A?ref=pf_vv_at_pdctrvw_srp">Read more</a>)</li>
         </ul>
       </div>
       <hr />
